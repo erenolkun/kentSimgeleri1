@@ -12,11 +12,27 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+        
         tableView.dataSource = self
         tableView.delegate = self
         
-        print("kentSimgeleri1")
+        var landmarkNames = [String]()
+        landmarkNames.append("colosseum")
+        landmarkNames.append("greatWall")
+        landmarkNames.append("kremlin")
+        landmarkNames.append("stonehenge")
+        landmarkNames.append("tajMahal")
+        
+        var landmarkImages = [UIImage]()
+        
+        landmarkImages.append(UIImage(named: "colosseum.jpg")!)
+        landmarkImages.append(UIImage(named: "greatWall.jpg")!)
+        landmarkImages.append(UIImage(named: "kremlin.jpg")!)
+        landmarkImages.append(UIImage(named: "stonehenge.jpg")!)
+        landmarkImages.append(UIImage(named: "tajMahal.jpg")!)
+        
+        
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
@@ -28,6 +44,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         content.text = "test"
         cell.contentConfiguration = content
         return cell
+        
+        
     }
 }
 
