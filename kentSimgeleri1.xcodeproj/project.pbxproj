@@ -13,6 +13,7 @@
 		7BFA2FC5298D7DCC007E89AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA2FC3298D7DCC007E89AB /* Main.storyboard */; };
 		7BFA2FC7298D7DCD007E89AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA2FC6298D7DCD007E89AB /* Assets.xcassets */; };
 		7BFA2FCA298D7DCD007E89AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA2FC8298D7DCD007E89AB /* LaunchScreen.storyboard */; };
+		7BFF738829A2A4C600E16805 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF738729A2A4C600E16805 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7BFA2FC6298D7DCD007E89AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BFA2FC9298D7DCD007E89AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BFA2FCB298D7DCD007E89AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFF738729A2A4C600E16805 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7BFA2FC6298D7DCD007E89AB /* Assets.xcassets */,
 				7BFA2FC8298D7DCD007E89AB /* LaunchScreen.storyboard */,
 				7BFA2FCB298D7DCD007E89AB /* Info.plist */,
+				7BFF738729A2A4C600E16805 /* DetailsVC.swift */,
 			);
 			path = kentSimgeleri1;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFA2FC2298D7DCC007E89AB /* ViewController.swift in Sources */,
+				7BFF738829A2A4C600E16805 /* DetailsVC.swift in Sources */,
 				7BFA2FBE298D7DCC007E89AB /* AppDelegate.swift in Sources */,
 				7BFA2FC0298D7DCC007E89AB /* SceneDelegate.swift in Sources */,
 			);
